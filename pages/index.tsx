@@ -12,8 +12,11 @@ const Home: NextPage = () => {
 			</Head>
 
 			<div>
-				<Image src='/HomeSkeleton.jpg' width={140} height={240}/>
-				<p>thi;asdf;sajlsaojwef  psjfsdpsd i spojpispfsdpoi do dpisdospijwefjao </p>
+				<Image src='/HomeSkeleton.jpg' width={140} height={240} />
+				<p>
+					thi;asdf;sajlsaojwef psjfsdpsd i spojpispfsdpoi do
+					dpisdospijwefjao{' '}
+				</p>
 			</div>
 		</div>
 	)
