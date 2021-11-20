@@ -19,6 +19,7 @@ const Blog: NextPage = () => {
 				and dissect their process for people to learn from.
 			</p>
 			<p>
+				{/* eslint-disable-next-line react/no-unescaped-entities */}
 				On a personal note, I'm just happy to have finally launched this
 				site. I was reminded of{' '}
 				<Link href={'https://edwardtufte.github.io/tufte-css/'}>
@@ -31,15 +32,19 @@ const Blog: NextPage = () => {
 				of all of it.
 			</p>
 			<p>
+				{/* eslint-disable-next-line react/no-unescaped-entities */}
 				Currently, I'm heads down on{' '}
 				<Link href={'https://twitter.com/WMEGame'}>WME</Link> and a few
+				{/* eslint-disable-next-line react/no-unescaped-entities */}
 				other games, so I don't have too much to talk about at the
 				moment. I have been practicing a few different game development
+				{/* eslint-disable-next-line react/no-unescaped-entities */}
 				practices as of late, but I'm still in the process of writing a
 				post about that.
 			</p>
 			<p>
 				I hope to share some exciting information about the game
+				{/* eslint-disable-next-line react/no-unescaped-entities */}
 				projects I'm working on, and I'm excited to share it with the
 				rest of the world. Stay sane everyone.
 			</p>
