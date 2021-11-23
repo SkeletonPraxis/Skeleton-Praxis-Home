@@ -28,8 +28,8 @@ const Blog: NextPage = () => {
 				thanks to a friend of mine, and it lit a flame in me to
 				prioritize getting this site out the door. Why? Because this is
 				a nice looking style for a website! Seriously, just look at how
-				clean the margins and fonts are, and the responsive behavior
-				of all of it.
+				clean the margins and fonts are, and the responsive behavior of
+				all of it.
 			</p>
 			<p>
 				{/* eslint-disable-next-line react/no-unescaped-entities */}
@@ -39,14 +39,14 @@ const Blog: NextPage = () => {
 				&nbsp;other games, so I don't have too much to talk about at the
 				moment. I have been practicing a few different game development
 				{/* eslint-disable-next-line react/no-unescaped-entities */}
-				&nbsp;practices as of late, but I'm still in the process of writing a
-				post about that.
+				&nbsp;practices as of late, but I'm still in the process of
+				writing a post about that.
 			</p>
 			<p>
 				I hope to share some exciting information about the game
 				{/* eslint-disable-next-line react/no-unescaped-entities */}
-				&nbsp;projects I'm working on, and I'm excited to share it with the
-				rest of the world. Stay sane everyone.
+				&nbsp;projects I'm working on, and I'm excited to share it with
+				the rest of the world. Stay sane everyone.
 			</p>
 		</section>
 	)

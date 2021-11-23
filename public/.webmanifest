@@ -1,0 +1,12 @@
+{
+  "name": "Skeleton Praxis",
+  "short_name": "Skeleton Praxis",
+  "start_url": "/",
+  "display": "standalone",
+  "description": "Skeleton Praxis Home",
+  "icons": [{
+    "src": "/skull.png",
+    "sizes": "180x180",
+    "type": "image/png"
+  }]
+}

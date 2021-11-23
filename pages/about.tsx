@@ -10,12 +10,12 @@ const About: NextPage = () => {
 			</Head>
 			<h2>About</h2>
 			<p>
-				Skeleton Praxis a single person game studio targeting
+				Skeleton Praxis is a single person game studio targeting
 				PC/Mac/Linux/Web platforms.
 			</p>
 			<p>
 				Currently working on{' '}
-				<Link href={'https://twitter.com/WMEGame'}>WME</Link>, and
+				<Link href={'https://twitter.com/WMEGame'}>WME</Link> and
 				another unannounced project.
 			</p>
 
