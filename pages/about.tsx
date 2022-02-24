@@ -4,7 +4,7 @@ import Head from 'next/head'
 
 export const config = {
 	unstable_runtimeJS: false
-};
+}
 
 const About: NextPage = () => {
 	return (

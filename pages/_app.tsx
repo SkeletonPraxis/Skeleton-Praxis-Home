@@ -5,7 +5,7 @@ import Head from 'next/head'
 
 export const config = {
 	unstable_runtimeJS: false
-};
+}
 
 function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 	return (
@@ -23,8 +23,7 @@ function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 					name='description'
 					content='Skeleton Praxis Game Studio Homepage'
 				/>
-				<link rel="shortcut icon" href={'/favicon.ico'} />
-
+				<link rel='shortcut icon' href={'/favicon.ico'} />
 				{/*Facebook OpenGraph meta tags*/}
 				<meta property='og:title' content='Skeleton Praxis' />
 				<meta property='og:type' content='website' />
@@ -43,9 +42,9 @@ function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 				<meta
 					property='og:image:alt'
 					content='Skeleton Praxis Mascot'
-				/>®
-				<meta property="og:site_name" content="Skeleton Praxis" />
-
+				/>
+				®
+				<meta property='og:site_name' content='Skeleton Praxis' />
 				{/*Twitter meta tags*/}
 				<meta name='twitter:title' content='Skeleton Praxis' />
 				<meta
@@ -59,9 +58,7 @@ function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 				<meta name='twitter:card' content='summary' />
 				<meta name='twitter:creator' content='@SkeletonPraxis' />
 				<meta name='twitter:site' content='@SkeletonPraxis' />
-
 				<link rel='canonical' href='https://www.skeletonpraxis.com/' />
-
 				<link rel='apple-touch-icon' href={'/skull.png'} />
 				<link rel='manifest' href={'/my.webmanifest'} />
 			</Head>
