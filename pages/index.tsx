@@ -1,5 +1,9 @@
 import type { NextPage } from 'next'
 
+export const config = {
+	unstable_runtimeJS: false
+};
+
 const Home: NextPage = () => {
 	return (
 		<section>

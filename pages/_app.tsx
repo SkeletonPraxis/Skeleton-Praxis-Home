@@ -3,6 +3,10 @@ import type { AppProps } from 'next/app'
 import Link from 'next/link'
 import Head from 'next/head'
 
+export const config = {
+	unstable_runtimeJS: false
+};
+
 function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 	return (
 		<div>
@@ -30,7 +34,7 @@ function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					property='og:image'
-					content='https://skeletonpraxis.com/HomeSkeleton.jpg'
+					content='https://skeletonpraxis.com/card.png'
 				/>
 				<meta
 					property='og:description'
@@ -39,7 +43,7 @@ function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 				<meta
 					property='og:image:alt'
 					content='Skeleton Praxis Mascot'
-				/>
+				/>®
 				<meta property="og:site_name" content="Skeleton Praxis" />
 
 				{/*Twitter meta tags*/}
@@ -50,7 +54,7 @@ function SkeletonPraxisHome({ Component, pageProps }: AppProps) {
 				/>
 				<meta
 					name='twitter:image'
-					content='https://skeletonpraxis.com/HomeSkeleton.jpg'
+					content='https://skeletonpraxis.com/card.png'
 				/>
 				<meta name='twitter:card' content='summary' />
 				<meta name='twitter:creator' content='@SkeletonPraxis' />

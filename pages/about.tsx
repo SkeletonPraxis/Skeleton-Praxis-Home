@@ -2,6 +2,10 @@ import { NextPage } from 'next'
 import Link from 'next/link'
 import Head from 'next/head'
 
+export const config = {
+	unstable_runtimeJS: false
+};
+
 const About: NextPage = () => {
 	return (
 		<section>
